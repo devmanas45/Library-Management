@@ -1,0 +1,11 @@
+Library Mangement
+It is a project using python and mysql.
+Python is used to program the software and mysql is used to store data.
+In this Library management ,  I have connected my local database named Library and different tables related to each other with foreign keys.
+The tables are: 
+book table for storing the data of book like bookID, bookName, authorName, price, copies and remaining copies.
+member table for storing the data of memberID, memberName,memberAddress and phone
+issue table for storing data of issueId, issueDate, memberID as foreign key, bookid as foreign key, copies.
+returns table for storing data of returnID, returnDate, memberID, bookID,copies
+In python, i have different functions for creation, read, update and deletion CRUD operations.
+
